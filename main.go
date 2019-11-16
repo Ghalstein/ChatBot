@@ -17,6 +17,7 @@ func main() {
 	printGreeting(sb)
 }
 
+// using interface to
 func printGreeting(b bot) {
 	fmt.Println(b.getGreeting())
 }
